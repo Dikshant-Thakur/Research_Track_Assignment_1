@@ -15,7 +15,7 @@ Once you have the aforementioned requirements, run this using the below-given li
 
 Import necessary libraries
 
-**#Define the threshold constants**
+**#Define the threshold values**
 
 
 
