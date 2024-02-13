@@ -38,6 +38,8 @@ def find_token(no_of_markers):
  
  Return the distance, angle and the token code
 
+ 
+
 def move(no_of_markers):
 
  Move the robot to the closest token
@@ -48,10 +50,15 @@ def move(no_of_markers):
  
  If the token is found, then the robot will grab it.
 
+ 
+
 def destination_location(no_of_markers):
 
  Find the location to gather them.
+ 
  Return the distance and angle between the robot's and the destination.
+
+ 
 
 def def go_to_destination (no_of_markers):
 
@@ -60,6 +67,8 @@ def def go_to_destination (no_of_markers):
  If no location is detected, will search for the location
  
  Adjust the robot's position and orientation according to the destination.
+
+ 
 
 **#Define the main function**
 
