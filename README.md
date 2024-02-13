@@ -35,13 +35,17 @@ Function for setting an angular velocity
 def find_token(no_of_markers):
 
  Search for the closest tokens and those tokens who are not yet been picked up
+ 
  Return the distance, angle and the token code
 
 def move(no_of_markers):
 
  Move the robot to the closest token
+ 
  If no token is not detected, the Robot will look for the token
+ 
  Adjust the robot's position and orientation according to the token
+ 
  If the token is found, then the robot will grab it.
 
 def destination_location(no_of_markers):
@@ -52,17 +56,25 @@ def destination_location(no_of_markers):
 def def go_to_destination (no_of_markers):
 
  Move the robot to the destination
+ 
  If no location is detected, will search for the location
+ 
  Adjust the robot's position and orientation according to the destination.
 
 **#Define the main function**
 
 Initialize a list to store markers' codes
+
 Initialize the variable to count the box
+
 If the robot collected the box and put it in a place, then end the program
+
 If it's the first time then define the location!
+
 If it's not the first iteration, move the robot to the destination token
+
 Release the token, move back, and update the list of markers' codes
+
 Print list of markers' codes
 
 Call the main function to execute the program
