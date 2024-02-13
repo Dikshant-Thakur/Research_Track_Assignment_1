@@ -7,36 +7,52 @@ The simulator requires a Python 2.7 installation along with pygame, PyPyBox2D, P
 Once you have the aforementioned requirements, then to run this use the below given line of code. 
 ```bash
  $ python2 run.py assignment.py
-```
+**Pseudo Code**
+-------------
+Import necessary libraries
 
-## Troubleshooting
+#Define the threshold constants
+a_th = 2.0
+d_th = 0.4
 
-When running `python run.py <file>`, you may be presented with an error: `ImportError: No module named 'robot'`. This may be due to a conflict between sr.tools and sr.robot. To resolve, symlink simulator/sr/robot to the location of sr.tools.
+#Define Functions
 
-On Ubuntu, this can be accomplished by:
-* Find the location of srtools: `pip show sr.tools`
-* Get the location. In my case this was `/usr/local/lib/python2.7/dist-packages`
-* Create symlink: `ln -s path/to/simulator/sr/robot /usr/local/lib/python2.7/dist-packages/sr/`
+def drive(speed, seconds):
+Functions for setting the linear velocity
 
-## Exercise
------------------------------
+def turn(speed, seconds):
+Function for setting an angular velocity
 
-To run one or more scripts in the simulator, use `run.py`, passing it the file names. 
+def find_token(no_of_markers):
+ Search for the closest tokens and those tokens who are not yet been picked up
+ Return the distance, angle and the token code
 
-I am proposing you three exercises, with an increasing level of difficulty.
-The instruction for the three exercises can be found inside the .py files (exercise1.py, exercise2.py, exercise3.py).
+def move(no_of_markers):
+ Move the robot to the closest token
+ If no token is not detected, the Robot will look for the token
+ Adjust the robot's position and orientation according to the token
+ If the token is found, then the robot will grab it.
 
-When done, you can run the program with:
+def destination_location(no_of_markers):
+ Find the location to gather them.
+ Return the distance and angle between the robot's and the destination.
 
-```bash
-$ python run.py exercise1.py
-```
+def def go_to_destination (no_of_markers):
+ Move the robot to the destination
+ If no location is detected, will search for the location
+ Adjust the robot's position and orientation according to the destination.
 
-You have also the solutions of the exercises (folder solutions)
+#Define the main function
+Initialize a list to store markers' codes
+Initialize the variable to count the box
+If the robot collected the box and put it in a place, then end the program
+If it's the first time then define the location!
+If it's not the first iteration, move the robot to the destination token
+Release the token, move back, and update the list of markers' codes
+Print list of markers' codes
 
-```bash
-$ python run.py solutions/exercise1_solution.py
-```
+Call main function to execute the program
+
 
 Robot API
 ---------
