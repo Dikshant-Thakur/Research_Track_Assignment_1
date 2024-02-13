@@ -13,13 +13,13 @@ Once you have the aforementioned requirements, run this using the below-given li
 -------------
 Import necessary libraries
 
-#Define the threshold constants
+**#Define the threshold constants**
 
 a_th = 2.0
 d_th = 0.4
 
-#Define Functions
-
+**#Define Functions
+**
 def drive(speed, seconds):
 Functions for setting the linear velocity
 
@@ -45,7 +45,7 @@ def def go_to_destination (no_of_markers):
  If no location is detected, will search for the location
  Adjust the robot's position and orientation according to the destination.
 
-#Define the main function
+**#Define the main function**
 Initialize a list to store markers' codes
 Initialize the variable to count the box
 If the robot collected the box and put it in a place, then end the program
