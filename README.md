@@ -24,23 +24,27 @@ d_th = 0.4
 
 **#Define Functions**
 
-def drive(speed, seconds):
+=> def drive(speed, seconds):
 
 Functions for setting the linear velocity
 
-def turn(speed, seconds):
+
+
+=> def turn(speed, seconds):
 
 Function for setting an angular velocity
 
-def find_token(no_of_markers):
+
+=> def find_token(no_of_markers):
 
  Search for the closest tokens and those tokens who are not yet been picked up
  
  Return the distance, angle and the token code
 
+
  
 
-def move(no_of_markers):
+=>def move(no_of_markers):
 
  Move the robot to the closest token
  
@@ -52,7 +56,7 @@ def move(no_of_markers):
 
  
 
-def destination_location(no_of_markers):
+=>def destination_location(no_of_markers):
 
  Find the location to gather them.
  
@@ -60,7 +64,7 @@ def destination_location(no_of_markers):
 
  
 
-def def go_to_destination (no_of_markers):
+=>def def go_to_destination (no_of_markers):
 
  Move the robot to the destination
  
