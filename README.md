@@ -11,9 +11,13 @@ Once you have the aforementioned requirements, run this using the below-given li
 
 **Pseudo Code**
 -------------
+
+
 Import necessary libraries
 
 **#Define the threshold constants**
+
+
 
 a_th = 2.0
 d_th = 0.4
@@ -24,28 +28,34 @@ def drive(speed, seconds):
 Functions for setting the linear velocity
 
 def turn(speed, seconds):
+
 Function for setting an angular velocity
 
 def find_token(no_of_markers):
+
  Search for the closest tokens and those tokens who are not yet been picked up
  Return the distance, angle and the token code
 
 def move(no_of_markers):
+
  Move the robot to the closest token
  If no token is not detected, the Robot will look for the token
  Adjust the robot's position and orientation according to the token
  If the token is found, then the robot will grab it.
 
 def destination_location(no_of_markers):
+
  Find the location to gather them.
  Return the distance and angle between the robot's and the destination.
 
 def def go_to_destination (no_of_markers):
+
  Move the robot to the destination
  If no location is detected, will search for the location
  Adjust the robot's position and orientation according to the destination.
 
 **#Define the main function**
+
 Initialize a list to store markers' codes
 Initialize the variable to count the box
 If the robot collected the box and put it in a place, then end the program
