@@ -22,8 +22,8 @@ Import necessary libraries
 a_th = 2.0
 d_th = 0.4
 
-**#Define Functions
-**
+**#Define Functions**
+
 def drive(speed, seconds):
 Functions for setting the linear velocity
 
