@@ -5,8 +5,9 @@ This portable robot simulator was developed by [Student Robotics](https://studen
 The simulator requires a Python 2.7 installation along with pygame, PyPyBox2D, PyYAML libraries. 
 
 Once you have the aforementioned requirements, then to run this use the below given line of code. 
-
-' $ python2 run.py assignment.py '
+```bash
+ $ python2 run.py assignment.py
+```
 
 ## Troubleshooting
 
