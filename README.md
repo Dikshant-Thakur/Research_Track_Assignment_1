@@ -6,7 +6,7 @@ The simulator requires a Python 2.7 installation along with pygame, PyPyBox2D, P
 
 Once you have the aforementioned requirements, then to run this use the below given line of code. 
 
-$ python2 run.py assignment.py
+''' $ python2 run.py assignment.py '''
 
 ## Troubleshooting
 
