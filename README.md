@@ -4,9 +4,11 @@ This portable robot simulator was developed by [Student Robotics](https://studen
 
 The simulator requires a Python 2.7 installation along with pygame, PyPyBox2D, PyYAML libraries. 
 
-Once you have the aforementioned requirements, then to run this use the below given line of code. 
+Once you have the aforementioned requirements, run this using the below-given line of code. 
 ```bash
  $ python2 run.py assignment.py
+```
+
 **Pseudo Code**
 -------------
 Import necessary libraries
@@ -51,7 +53,7 @@ If it's not the first iteration, move the robot to the destination token
 Release the token, move back, and update the list of markers' codes
 Print list of markers' codes
 
-Call main function to execute the program
+Call the main function to execute the program
 
 
 Robot API
