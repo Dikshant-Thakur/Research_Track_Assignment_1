@@ -1,15 +1,12 @@
-Python Robotics Simulator
-================================
-
-This is a simple, portable robot simulator developed by [Student Robotics](https://studentrobotics.org).
-Some of the arenas and the exercises have been modified for the Research Track I course
-
 Installing and running
 ----------------------
+This portable robot simulator was developed by [Student Robotics](https://studentrobotics.org).
 
-The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org/) library, [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
+The simulator requires a Python 2.7 installation along with pygame, PyPyBox2D, PyYAML libraries. 
 
-Pygame, unfortunately, can be tricky (though [not impossible](http://askubuntu.com/q/312767)) to install in virtual environments. If you are using `pip`, you might try `pip install hg+https://bitbucket.org/pygame/pygame`, or you could use your operating system's package manager. Windows users could use [Portable Python](http://portablepython.com/). PyPyBox2D and PyYAML are more forgiving, and should install just fine using `pip` or `easy_install`.
+Once you have the aforementioned requirements, then to run this use the below given line of code. 
+
+python2 run.py assignment.py
 
 ## Troubleshooting
 
