@@ -14,6 +14,7 @@ Once you have the aforementioned requirements, run this using the below-given li
 Import necessary libraries
 
 #Define the threshold constants
+
 a_th = 2.0
 d_th = 0.4
 
